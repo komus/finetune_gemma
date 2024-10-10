@@ -12,10 +12,11 @@ Steps:
 
 Findings:
 1. The Vertex AI deployed models generated output wasnt efficient as compared to the non-deployed model's output - see [deploy](/Deploy.ipynb)
+2. The inference generation was a bit slow, tried using `cuda` for GPU and `mps` for Apple backend processing. This resulted in a bit faster inference generation, next is to attempt quantization -[deploy](/deploy/generate.py)
 
 
 Next steps:
-1. Finetune Gemma using Keras and Tokenizers. 
+1. Finetune Gemma using Keras and Tokenizers and quantization. 
 2. Research: Is Finetuned model effective for student evaluation using Rubric score.
 
 
