@@ -17,6 +17,7 @@ Findings:
 
 Next steps:
 1. Finetune Gemma using Keras and Tokenizers and quantization. 
+The use of adapters for the finetuned model made inference faster and output cleaner - see [adapters](/gamma-finetune-database-using-adapters.ipynb)
 2. Research: Is Finetuned model effective for student evaluation using Rubric score.
 
 
